@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .div1 {
+            width: 200px;
+            height: 200px;
+            border: 1px solid gray;
+            background-color: indianred;
+
+        } */
+
+        .div1 {
+            width: 200px;
+            height: 200px;
+            /* border: 1px solid gray; */
+            background-color: indianred;
+            margin-left: 10px;
+            animation-name: example;
+            /* animation-direction: right; */
+            animation-duration: 4s;
+            animation-delay: 1s;
+            animation-iteration-count: 3;
+            animation-direction: alternate-reverse;
+
+
+
+        }
+
+        @keyframes example {
+            0% {
+                background-color: red;
+
+
+            }
+
+            25% {
+                background-color: yellow;
+                /* transform: scale(2, 3); */
+            }
+
+            50% {
+                background-color: blue;
+
+            }
+
+            100% {
+                background-color: green;
+            }
+        }
+
+        section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            /* justify-content: center; */
+            /* align-content: space-between; */
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="div1">
+
+        </div>
+
+    </section>
+
+
+</body>
+
+</html>

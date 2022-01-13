@@ -1,0 +1,31 @@
+nav>ul{
+    display: flex;
+    
+    
+}
+nav li{
+    list-style: none;
+    margin-left: 1em;
+    
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+.dowpdown{
+    position:absolute;
+    background-color: brown;
+    display: none;
+}
+nav>ul>li:hover>.dowpdown{
+display: block ;
+}nav>ul>li:hover>.dowpdown.mega-menu{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 3em;
+}
+.mega-menu h3{
+    font-size:16px;
+    color: chartreuse;
+    margin-bottom: 0;
+}
